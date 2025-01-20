@@ -1,6 +1,7 @@
 node_modules/
 build/
 .env
+.env.example
 venv/
 env/
 __pycache__/
@@ -14,3 +15,6 @@ bun.*
 .states/
 pyproject.toml
 backend/utils/secrets/
+logs/*
+*.log
+*.log.*
